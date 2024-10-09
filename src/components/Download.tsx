@@ -1,6 +1,5 @@
 import React from 'react'
 import { Download } from 'lucide-react';
-import apk from '.././'
 
 const DownloadPage = () => {
   return (
@@ -15,8 +14,8 @@ const DownloadPage = () => {
         <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
           
         <a
-            href="./app-release.apk" // Change this to the correct path of your file
-            download="Trako-Beta.apk" // Optional: Renames the file when downloaded
+            href="https://www.dropbox.com/scl/fi/j2tpsx84nnz92beskffl5/trako-app.apk?rlkey=dgpdkod9m5rvbe24t6wkozm4c&st=z45o3wkl&dl=0" // Change this to the correct path of your file
+            // download="Trako-Beta.apk" // Optional: Renames the file when downloaded
             className="flex items-center justify-center bg-green-500 text-black px-8 py-3 rounded-full text-lg font-semibold hover:bg-green-400 transition duration-300"
           >
             <Download className="w-6 h-6 mr-2" />
