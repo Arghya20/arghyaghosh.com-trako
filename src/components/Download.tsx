@@ -13,11 +13,11 @@ const DownloadPage = () => {
         </p>
         <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
           
-          <a 
-            href="#" 
+        <a
+            href="../trako-app.apk" // Change this to the correct path of your file
+            download="Trako-Beta.apk" // Optional: Renames the file when downloaded
             className="flex items-center justify-center bg-green-500 text-black px-8 py-3 rounded-full text-lg font-semibold hover:bg-green-400 transition duration-300"
           >
-          
             <Download className="w-6 h-6 mr-2" />
             Download Beta
           </a>
