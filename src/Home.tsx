@@ -82,6 +82,3 @@ const Home = () => {
 };
 
 export default Home;
-
-// check commit
-// for re-deploy

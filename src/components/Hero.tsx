@@ -1,10 +1,12 @@
-import React from 'react'
-import { motion } from 'framer-motion'
+import React from 'react';
+import { motion } from 'framer-motion';
+import image from './trako-mockup.png';
 
 const Hero = () => {
   return (
     <section className="pt-32 pb-20 px-4">
-      <div className="container mx-auto flex flex-col md:flex-row items-center">
+      <div className="container mx-auto flex flex-col md:flex-row items-center justify-center text-center md:text-left">
+        {/* Text Section */}
         <div className="md:w-1/2 mb-10 md:mb-0">
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">
             Master Your Finances
@@ -19,16 +21,18 @@ const Hero = () => {
             Start Tracking
           </a>
         </div>
+
+        {/* Image Section */}
         <motion.div 
-          className="md:w-1/2"
+          className="md:w-1/2 lg:w-1/4"
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
           <motion.img 
-            src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
-            alt="Budget tracking illustration" 
-            className="rounded-lg shadow-2xl opacity-80"
+            src={image}
+            alt="Trako-Mockup" 
+            className="rounded-lg shadow-2xl opacity-80 w-full max-w-md mx-auto"
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.3 }}
           />
@@ -38,4 +42,4 @@ const Hero = () => {
   )
 }
 
-export default Hero
+export default Hero;
