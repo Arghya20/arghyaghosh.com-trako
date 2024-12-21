@@ -4,7 +4,7 @@ import App from './App.tsx'
 import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from './Home.tsx';
-import BrightIntosh from './brightintosh/brightintosh.tsx';
+import BrightIntosh from './brightintosh/macapp.tsx';
 
 const router = createBrowserRouter([
   {
