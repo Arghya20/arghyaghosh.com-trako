@@ -73,6 +73,14 @@ const Home = () => {
               >
                 <p>/App</p>
               </a>
+              <a
+                href={`/brightintosh`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline"
+              >
+                <p>/brightintosh</p>
+              </a>
             </div>
           </footer>
         </div>
